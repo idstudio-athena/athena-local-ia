@@ -1,5 +1,7 @@
 # Athéna Local IA — édition gratuite (alpha)
 
+![Athéna, mon IA locale](miniature.jpg)
+
 Une assistante IA qui tourne **sur votre PC** : la conversation, la mémoire, la voix et l'avatar 3D.
 Vos conversations et vos fichiers ne quittent pas votre ordinateur, et chaque réponse dit
 d'où elle vient : mesurée, tirée d'une source, appuyée sur sa mémoire, ou écrite par le modèle seul.
