@@ -6,7 +6,7 @@ Une assistante IA qui tourne **sur votre PC** : la conversation, la mémoire, la
 Vos conversations et vos fichiers ne quittent pas votre ordinateur, et chaque réponse dit
 d'où elle vient : mesurée, tirée d'une source, appuyée sur sa mémoire, ou écrite par le modèle seul.
 
-Présentation, vidéo et formulaire de retour : **https://athena-ia-locale.netlify.app**
+Présentation, vidéo et formulaire de retour : **https://athena-ia-locale.com**
 
 > **Version alpha.** Elle fonctionne, mais elle n'a été essayée que sur quelques PC.
 > Vos retours servent à la corriger : la carte graphique, ce qui n'a pas marché, et surtout
@@ -65,4 +65,4 @@ Athéna est une création d'**ID Studio**. Ce dépôt sert seulement à distribu
 `Athena-gratuite-alpha.zip` from Releases, unzip it, and run `INSTALLER.bat`: it fetches
 Node.js 22.23.3, Ollama 0.35.0 and two models (about 12 GB) from their official sources and checks
 each installer's SHA-256. Needs Windows 10/11, a GPU with 8 GB of video memory and about 20 GB of
-free space. Feedback form: https://athena-ia-locale.netlify.app
+free space. Feedback form: https://athena-ia-locale.com
