@@ -8,9 +8,13 @@ d'où elle vient : mesurée, tirée d'une source, appuyée sur sa mémoire, ou �
 
 Présentation, vidéo et formulaire de retour : **https://athena-ia-locale.com**
 
+Aide et retours : le serveur Discord d'ID Studio IA, **https://discord.gg/NquWmqwH6c**
+(salons #aide-installation et #retours-alpha).
+
 > **Version alpha.** Elle fonctionne, mais elle n'a été essayée que sur quelques PC.
 > Vos retours servent à la corriger : la carte graphique, ce qui n'a pas marché, et surtout
-> la phrase exacte qu'Athéna n'a pas comprise. Formulaire sur le site, section « Votre retour ».
+> la phrase exacte qu'Athéna n'a pas comprise. Formulaire sur le site, section « Votre retour »,
+> ou salon #retours-alpha sur Discord.
 
 ## Télécharger
 
@@ -50,12 +54,13 @@ le direct du globe, ou une clé Hugging Face.
 
 ## Crédits et licences
 
-Animations « Animation credits to pixiv Inc.'s VRoid Project » ; voix Pocket TTS par Kyutai
-(CC-BY 4.0), avec Python (PSF) et PyTorch (BSD) embarqués ; voix Piper : jeux SIWIS (CC-BY 4.0),
+Animations de l'avatar : Mixamo (Adobe) ; pose de repos de secours : projet AIRI (MIT) ;
+voix Pocket TTS par Kyutai (CC-BY 4.0), avec Python (PSF) et PyTorch (BSD) embarqués ; voix Piper : jeux SIWIS (CC-BY 4.0),
 LJ Speech (domaine public), davefx (CC0) ; carte de la Terre : NASA (domaine public) ;
 espeak-ng (GPL-3.0, programme séparé) ; fiches de culture générale tirées de Wikipédia
 (CC BY-SA, source dans chaque fiche) ; modèles d'IA téléchargés chez leurs éditeurs, sous leur
-propre licence (granite4.2 : Apache 2.0 ; ornith-1.5 : MIT).
+propre licence (granite4.2 : Apache 2.0 ; ornith-1.5 : MIT). La liste complète est dans
+`LICENCES.txt`, à l'intérieur du dossier.
 
 Athéna est une création d'**ID Studio**. Ce dépôt sert seulement à distribuer l'édition gratuite.
 
@@ -65,4 +70,5 @@ Athéna est une création d'**ID Studio**. Ce dépôt sert seulement à distribu
 `Athena-gratuite-alpha.zip` from Releases, unzip it, and run `INSTALLER.bat`: it fetches
 Node.js 22.23.3, Ollama 0.35.0 and two models (about 12 GB) from their official sources and checks
 each installer's SHA-256. Needs Windows 10/11, a GPU with 8 GB of video memory and about 20 GB of
-free space. Feedback form: https://athena-ia-locale.com
+free space. Feedback form: https://athena-ia-locale.com · Help and feedback on Discord:
+https://discord.gg/NquWmqwH6c
