@@ -127,7 +127,10 @@ quand vous le demandez ou l'activez :
 - la météo de l'horloge, éteinte au départ ;
 - le direct du globe ;
 - une clé Hugging Face, si vous en mettez une ;
-- la voix gratuite de Google, en secours, si la voix locale n'est pas disponible pour une langue.
+- la voix gratuite de Google, en secours, si la voix locale n'est pas disponible pour une langue ;
+- les vidéos YouTube et le cours d'une crypto-monnaie, quand vous les demandez.
+
+La liste de chaque service, avec son rôle, est dans [Contributeurs](#les-services-en-ligne-quathéna-utilise).
 
 ## Questions fréquentes
 
@@ -192,6 +195,36 @@ L'alpha avance grâce à ceux qui l'essaient. Pour aider :
 Athéna est développée par **ID Studio IA, un studio indépendant**. Merci à toutes les personnes qui ont essayé
 l'alpha et envoyé leurs retours : chaque phrase signalée a servi.
 
+| Qui | Rôle |
+|---|---|
+| **ID Studio IA** | conception, choix, essais réels sur PC, décisions |
+| **[Claude Code](https://claude.com/claude-code)** (Anthropic) | assistant de programmation : écriture du code, tests, bancs de mesure, préparation des versions |
+| **Les testeurs de l'alpha** | retours, phrases signalées, essais sur d'autres cartes graphiques |
+
+### Les services en ligne qu'Athéna utilise
+
+Athéna ne dépend d'aucun service payant et ne demande aucun compte. Ces services publics ne sont appelés que
+lorsque vous demandez ce qu'ils fournissent, ou que vous activez la fonction. Merci à eux :
+
+| Pour quoi | Service |
+|---|---|
+| Savoir et vérification des réponses | [Wikipédia](https://fr.wikipedia.org) (français et anglais) |
+| Publications scientifiques | [OpenAlex](https://openalex.org), [arXiv](https://arxiv.org) |
+| Météo, recherche de ville, qualité de l'air | [Open-Meteo](https://open-meteo.com) |
+| Globe : images de la Terre | [NASA GIBS](https://earthdata.nasa.gov/gibs) |
+| Globe : séismes | [USGS](https://earthquake.usgs.gov) |
+| Globe : catastrophes, tsunamis, tornades | [GDACS](https://www.gdacs.org), [NOAA tsunami.gov](https://www.tsunami.gov), [NWS weather.gov](https://www.weather.gov) |
+| Globe : avions en vol | [OpenSky Network](https://opensky-network.org), [adsb.lol](https://adsb.lol) |
+| Globe : satellites | [CelesTrak](https://celestrak.org) |
+| Cours d'une crypto-monnaie, si vous le demandez | [CoinGecko](https://www.coingecko.com) |
+| Voix locales et modèles | [Hugging Face](https://huggingface.co) (téléchargement des voix Piper), [Ollama](https://ollama.com) (modèles) |
+| Voix de secours, si la voix locale manque pour une langue | Google Traduction |
+| Vidéos et musique | [YouTube](https://www.youtube.com) (lecteur intégré) |
+
+Autour du projet : [GitHub](https://github.com/idstudio-athena) pour les versions, [Netlify](https://www.netlify.com)
+pour le [site](https://athena-ia-locale.com), [Discord](https://discord.gg/NquWmqwH6c) pour la communauté,
+[Ko-fi](https://ko-fi.com/idstudioia) pour le soutien.
+
 ## Remerciements et licences
 
 Athéna s'appuie sur des projets ouverts. Merci à leurs auteurs :
@@ -227,5 +260,9 @@ weather, PC state, her own memory), and every answer shows where it comes from.
 - **Needs** Windows 10/11, a GPU with at least 8 GB of video memory (NVIDIA or AMD), 8 GB of RAM (16 GB
   recommended) and about 20 GB of free space.
 - **New in 0.1.10**: a "brain view" of her memory, and a task view showing the steps of your last requests.
+- **Made by** ID Studio IA, an independent studio, with [Claude Code](https://claude.com/claude-code)
+  (Anthropic) as programming assistant. Online services, only when you ask: Wikipedia, OpenAlex, arXiv,
+  Open-Meteo, NASA GIBS, USGS, GDACS, NOAA, NWS, OpenSky, adsb.lol, CelesTrak, CoinGecko, Hugging Face,
+  Ollama, Google Translate (fallback voice), YouTube.
 - **Help and feedback**: [Discord](https://discord.gg/NquWmqwH6c) · [issues](../../issues) ·
   [athena-ia-locale.com](https://athena-ia-locale.com)
