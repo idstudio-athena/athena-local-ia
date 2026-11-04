@@ -219,6 +219,7 @@ lorsque vous demandez ce qu'ils fournissent, ou que vous activez la fonction. Me
 | Cours d'une crypto-monnaie, si vous le demandez | [CoinGecko](https://www.coingecko.com) |
 | Voix locales et modèles | [Hugging Face](https://huggingface.co) (téléchargement des voix Piper), [Ollama](https://ollama.com) (modèles) |
 | Voix de secours, si la voix locale manque pour une langue | Google Traduction |
+| Vidéos et musique | [YouTube](https://www.youtube.com) (lecteur intégré) |
 
 Autour du projet : [GitHub](https://github.com/idstudio-athena) pour les versions, [Netlify](https://www.netlify.com)
 pour le [site](https://athena-ia-locale.com), [Discord](https://discord.gg/NquWmqwH6c) pour la communauté,
@@ -262,6 +263,6 @@ weather, PC state, her own memory), and every answer shows where it comes from.
 - **Made by** ID Studio IA, an independent studio, with [Claude Code](https://claude.com/claude-code)
   (Anthropic) as programming assistant. Online services, only when you ask: Wikipedia, OpenAlex, arXiv,
   Open-Meteo, NASA GIBS, USGS, GDACS, NOAA, NWS, OpenSky, adsb.lol, CelesTrak, CoinGecko, Hugging Face,
-  Ollama, Google Translate (fallback voice).
+  Ollama, Google Translate (fallback voice), YouTube.
 - **Help and feedback**: [Discord](https://discord.gg/NquWmqwH6c) · [issues](../../issues) ·
   [athena-ia-locale.com](https://athena-ia-locale.com)
